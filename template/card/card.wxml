@@ -1,0 +1,16 @@
+<!--wxml-->
+
+<template name="card">
+  <view>
+    <image src="../../image/icon64_appwx_logo.png" style="{{avatars}}">{{name}}</image>
+    <view>{{content}}</view>
+    <view>
+        <image src="../../image/icon_component.png" style="width:40px;height:40px;"></image>
+        <view>{{l_h_number}}</view>
+        <image src="../../image/icon_component.png" style="width:40px;height:40px;"></image>        
+    </view>
+    <view>{{time}},{{distance}}</view>
+    <view>{{comments_number}}</view>
+    <image src="../../image/icon_component.png" style="width:40px;height:40px;">评论</image>
+  </view>
+</template>
