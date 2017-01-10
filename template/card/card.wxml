@@ -1,16 +1,32 @@
 <!--wxml-->
-
 <template name="card">
-  <view>
-    <image src="../../image/icon64_appwx_logo.png" style="{{avatars}}">{{name}}</image>
-    <view>{{content}}</view>
-    <view>
-        <image src="../../image/icon_component.png" style="width:40px;height:40px;"></image>
-        <view>{{l_h_number}}</view>
-        <image src="../../image/icon_component.png" style="width:40px;height:40px;"></image>        
+    <view class="card_style">
+
+        <!--头像名字 和 内容-->
+        <view>
+            <image src="../../image/icon64_appwx_logo.png" class="avatars"></image>
+            <view class="name">{{name}}</view>
+            <view class="content">{{content}}</view>
+        </view>
+
+        <!--顶和踩-->
+        <view class="position_l_h">
+            <image src="../../image/icon_component.png" class="l_h_style"></image>
+            <view>{{l_h_number}}</view>
+            <image src="../../image/icon_component.png" class="l_h_style"></image>        
+        </view>
+
+        <!--时间，距离，评论数-->
+        <view>
+            <view class="t_d_style">{{time}},{{distance}}</view>
+            <view class="comments_number_style">{{comments_number}}</view>        
+        </view>
+
+        <!--评论按钮位置-->
+        <view>
+            <image src="../../image/icon_component.png" style="width:80rpx;height:80rpx;"></image>
+            <view class="comment_style">评论</view>     
+        </view>
+
     </view>
-    <view>{{time}},{{distance}}</view>
-    <view>{{comments_number}}</view>
-    <image src="../../image/icon_component.png" style="width:40px;height:40px;">评论</image>
-  </view>
 </template>

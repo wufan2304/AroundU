@@ -1,4 +1,27 @@
+.card_style{
+    background-color: #bbbbbb;
+}
+
 .avatars{
-    height: 40px;
-    width: 40px;
+    height: 100rpx;
+    width: 100rpx;
+}
+.name{
+    padding-left: 50rpx;
+    position: relative;
+    top: 10rpx;
+}
+
+
+.content{
+    top: 30rpx;
+}
+
+
+.l_h_style{
+    height: 50rpx;
+    width: 50rpx;
+}
+.position_l_h{
+    right: 0rpx;
 }

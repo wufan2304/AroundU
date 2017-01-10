@@ -1,7 +1,7 @@
 // pages/home/index.js
 Page({
   data:{
-    text: 'init data',
+    text: '首页',
     person1:{
       name:"wufan",
       content:"this is content",
