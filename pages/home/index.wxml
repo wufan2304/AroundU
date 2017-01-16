@@ -2,4 +2,6 @@
 <import src="../../template/card/card.wxml"/>
 <text>pages/home/index.wxml</text>
 <view>{{text}}</view>
-<template is="card" data="{{...person1}}">
+<template is="card" data="{{...person1}}"/>
+
+<template is="card" data="{{...person1}}"/>

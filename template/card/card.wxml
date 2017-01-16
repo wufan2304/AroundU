@@ -3,29 +3,38 @@
     <view class="card_style">
 
         <!--头像名字 和 内容-->
-        <view>
-            <image src="../../image/icon64_appwx_logo.png" class="avatars"></image>
-            <view class="name">{{name}}</view>
+        <view class="character">
+            <view class="user_info">
+                <image src="../../image/icon64_appwx_logo.png" class="avatars"></image>
+                <view class="name">{{name}}</view>
+            </view>
             <view class="content">{{content}}</view>
         </view>
 
         <!--顶和踩-->
-        <view class="position_l_h">
-            <image src="../../image/icon_component.png" class="l_h_style"></image>
+        <view class="like_hate">
+            <image src="../../image/icon_component.png" class="like_hate_button"></image>
             <view>{{l_h_number}}</view>
-            <image src="../../image/icon_component.png" class="l_h_style"></image>        
+            <image src="../../image/icon_component.png" class="like_hate_button"></image>        
+        </view>
+
+        <!--内容图片-->
+        <view class="pic_wrapper">
+            <image src="../../image/image/2.jpg" class="pic">图片位置</image>
         </view>
 
         <!--时间，距离，评论数-->
-        <view>
-            <view class="t_d_style">{{time}},{{distance}}</view>
-            <view class="comments_number_style">{{comments_number}}</view>        
+        <view class="time_distance_number">
+            <view class="time_distance">{{time}},{{distance}}</view>
+            <view class="comments_number">{{comments_number}}</view>        
         </view>
 
         <!--评论按钮位置-->
         <view>
-            <image src="../../image/icon_component.png" style="width:80rpx;height:80rpx;"></image>
-            <view class="comment_style">评论</view>     
+            <view class="comment">
+                <image src="../../image/icon_component.png" style="width:80rpx;height:80rpx;"></image>
+                评论
+            </view>     
         </view>
 
     </view>

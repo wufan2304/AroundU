@@ -4,7 +4,7 @@ Page({
     text: '首页',
     person1:{
       name:"wufan",
-      content:"this is content",
+      content:"this is content, this is content, this is content, this is content, this is content, this is content, this is content, this is content, this is content, ",
       l_h_number:"100",
       time:"2h",
       distance:"150m",

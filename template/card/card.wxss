@@ -1,27 +1,83 @@
+.clearfix:after{content:'.';display: block;clear: both;height: 0;overflow: hidden;visibility: hidden;}
+.clearfix{
+    zoom: 1;
+}
+
+
 .card_style{
+    border: 1px solid red;
     background-color: #bbbbbb;
+    position: relative;
+    margin: 10rpx;
+}
+
+.character{
+    border: 1px solid red;
+    float: left;
+    width: 90%;
+}
+.like_hate{
+    border: 1px solid red;
+    float: right;
+}
+
+.user_info{
+    border: 1px solid red;
+    height: 100rpx;
+
 }
 
 .avatars{
+    border: 1px solid red;
+    float: left;
     height: 100rpx;
     width: 100rpx;
 }
-.name{
-    padding-left: 50rpx;
-    position: relative;
-    top: 10rpx;
-}
 
+.name{
+    border: 1px solid red;
+    float: left;
+    margin: 20rpx;
+    vertical-align: middle;
+}
 
 .content{
-    top: 30rpx;
+    border: 1px solid red;
+    clear: both;
+    top: 0rpx;
 }
 
+.pic_wrapper{
+    clear:both;
+    border: 1px solid red;
+    display: block;
+    height: 300rpx;
+    overflow: hidden;
+}
 
-.l_h_style{
+.pic{
+    width: 100%;
+}
+
+.like_hate_button{
+    border: 1px solid red;
     height: 50rpx;
     width: 50rpx;
 }
-.position_l_h{
-    right: 0rpx;
+
+.time_distance{
+    border: 1px solid red;
+    float: left;
+    left: 5px;
+}
+
+.comments_number{
+    border: 1px solid red;
+    float: right;
+}
+
+.comment{
+    border: 1px solid red;
+    clear: both;
+    text-align: center;
 }
